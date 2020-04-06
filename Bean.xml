@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	
+	<bean id="Flights" class="com.avi.International"></bean>
+	<bean id="Hotels" class="com.avi1.Delux"></bean>
+	<bean id="VilasAppartment" class="com.avi2.LuxuryApp"></bean>
+	<bean id="Train" class="com.avi3.LongDisTrain"></bean>
+	<bean id="Bus" class="com.avi4.Eicher"></bean>
+	<bean id="Cabs" class="com.avi5.UberGo"></bean>
+	<bean id="Visa" class="com.avi6.Visa2"></bean>
+	
+	
+</beans>
+	
